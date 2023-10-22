@@ -1,0 +1,505 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .service-img {
+        margin-left: 30px;
+    }
+    
+    .calendar-area .container {
+        width: 90%;
+    }
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .service-img {
+        margin-left: 30px;
+        margin: auto;
+        margin-bottom: 70px;
+    }
+    
+    .calendar-area .container {
+        width: 90%;
+    }
+    h1 {
+        font-size: 42px;
+    }
+    
+    .flex {
+        flex-direction: column;
+    }
+    
+    .project-img {
+        margin: auto;
+        margin-bottom: 120px;
+    }
+    
+    .project_text {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .project_text a {
+        margin: auto;
+    }
+    
+    .project_text p {
+        margin-inline: auto;
+    }
+    .service-area .row {
+        flex-direction: column-reverse;
+    }
+    
+    .service_text h1, .service_text > p {
+        text-align: center;
+    }
+    
+    .service_text ul {
+        max-width: 480px;
+        margin-inline: auto;
+    }
+    
+    .service_text a {
+        margin-inline: auto;
+    }
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .service-img {
+        margin-left: 30px;
+        margin: auto;
+        margin-bottom: 70px;
+    }
+    
+    .calendar-area .container {
+        width: 90%;
+    }
+    h1 {
+        font-size: 42px;
+    }
+    
+    .flex {
+        flex-direction: column;
+    }
+    
+    .project-img {
+        margin: auto;
+        margin-bottom: 120px;
+    }
+    
+    .project_text {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .project_text a {
+        margin: auto;
+    }
+    
+    .project_text p {
+        margin-inline: auto;
+    }
+    .service-area .row {
+        flex-direction: column-reverse;
+    }
+    
+    .service_text h1, .service_text > p {
+        text-align: center;
+    }
+    
+    .service_text ul {
+        max-width: 480px;
+        margin-inline: auto;
+        text-align: left;
+    }
+    
+    .service_text a {
+        margin-inline: auto;
+    }
+    .hero-area .row {
+        flex-direction: column-reverse;
+    }
+    
+    .hero-img {
+        max-width: 90%;
+        margin: auto;
+        margin-bottom: 120px;
+    }
+    
+    .pay {
+        scale: .8;
+        left: 84px;
+        bottom: -90px;
+    }
+    
+    .sec_title {
+        text-align: center;
+    }
+    
+    .sec_title p {
+        margin-inline: auto;
+    }
+    
+    .hero-area {
+        padding-bottom: 50px;
+    }
+    
+    .footer_left {
+        max-width: 431px;
+        margin-inline: auto;
+    }
+    
+    .footer-form {
+        margin: auto;
+        max-width: 440px;
+        margin-top: 40px;
+    }
+
+    .benifits-wrp,.prj-btm{
+        flex-wrap: wrap;
+        justify-content: center;
+    } 
+    section.hero-area.withbrands .brands {
+        margin-bottom: -165px;
+        margin-top: 120px;
+    }
+    section.project-area.project-area-2 .project-img {
+        margin-bottom: 0px;
+    }
+    .project-right-points ul li {
+        margin-bottom: 0;
+        margin-top: 40px;
+    } 
+ 
+    section.service-area.services-two .service-img {
+        text-align: center;
+    }
+    
+    section.service-area.services-two .service-img h1 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 50px;
+    }
+    
+    section.service-area.services-two .service-img  img {
+        max-width: 500px;
+        margin: auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+
+    .service-img {
+        margin-left: 30px;
+        margin: auto;
+        margin-bottom: 70px;
+        max-width: 350px;
+    }
+    
+    .calendar-area .container {
+        width: 90%;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    
+    .flex {
+        flex-direction: column;
+    }
+    
+    .project-img {
+        margin: auto;
+        margin-bottom: 80px;
+        width: 86%;
+    }
+    
+    .project_text {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .project_text a {
+        margin: auto;
+    }
+
+.thm_btn {
+    font-size: 15px;
+}
+
+.header_right .thm_btn {
+    width: max-content;
+    font-size: 13px;
+    padding: 11px 18px;
+}
+
+.header-area {
+    padding-top: 15px;
+}
+
+.logo {
+    max-width: 118px;
+}
+    
+    .project_text p {
+        margin-inline: auto;
+    }
+    .service-area .row {
+        flex-direction: column-reverse;
+    }
+    
+    .service_text h1, .service_text > p {
+        text-align: center;
+    }
+    
+    .service_text ul {
+        max-width: 480px;
+        margin-inline: auto;
+        text-align: left;
+        margin-top: 30px;
+    }
+    
+    .service_text a {
+        margin-inline: auto;
+    }
+    .hero-area .row {
+        flex-direction: column-reverse;
+    }
+    
+    .hero-img {
+        max-width: 90%;
+        margin: auto;
+        margin-bottom: 80px;
+    }
+    
+    .pay {
+        scale: .8;
+        left: 84px;
+        bottom: -90px;
+        display: none;
+    }
+    
+    .sec_title {
+        text-align: center;
+    }
+    
+    .sec_title > p {
+        margin-inline: auto;
+        margin: 12px 0 20px;
+        font-size: 14px;
+    }
+    
+    .hero-area {
+        padding-bottom: 50px;
+        margin-top: 50px;
+    }
+    
+    .footer_left {
+        max-width: 431px;
+        margin-inline: auto;
+    }
+    
+    .footer-form {
+        margin: auto;
+        max-width: 440px;
+        margin-top: 40px;
+    }
+    .project-img h3 {
+        font-size: 18px;
+    }
+    
+    img.pj-3 {
+        display: none;
+    }
+    
+    img.pj-4 {
+        scale: .7;
+        bottom: -41px;
+    }
+    
+    .project-img a {
+        padding: 13px 23px;
+        font-size: 16px;
+    }
+    
+    img.pj-2 {
+        max-width: 100px;
+        left: -30px;
+        top: 51%;
+    }
+    
+    img.sv-3 {
+        right: -30px;
+        scale: .7;
+    }
+    
+    img.sv-1 {
+        width: 240px;
+        left: 0;
+    }
+    
+    img.sv-2 {
+        display: none;
+    }
+    
+    img.sv-4 {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .service_text ul li h5 {
+        font-size: 16px;
+    }
+    
+    .faq-content .accordion-item button {
+        font-size: 14px;
+    }
+    
+    .faq-area {
+        padding: 80px 0 50px;
+    }
+    
+    img.safe {
+        bottom: -15px;
+    }
+    
+    img.sale {
+        top: -15px;
+        scale: .8;
+    }
+
+.h-2 {
+    scale: .8;
+    left: -17px;
+    top: 140px;
+}
+    
+    img.pj-1 {
+        right: 0;
+        scale: .8;
+    }
+    
+    .project-area {
+        padding: 70px 0 80px;
+    }
+    
+    .logo_slider {
+        padding: 30px 56px;
+    }
+    
+    .logo_slider .owl-nav {
+        width: calc(100% - 20px);
+    }
+    .d-block.d-lg-none {}
+
+.footer_left h4 {
+    font-size: 20px;
+}
+
+.footer_left p {
+    font-size: 14px;
+}
+
+.footer-form h4 {
+    font-size: 22px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-form a {
+    width: 225px;
+}
+
+.fb_left {
+    text-align: center;
+}
+
+.fb_right {
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.footer_left .nav {
+    padding-right: 50px;
+}
+
+.parson-blk h2 {
+    font-size: 24px;
+}
+
+.benifits-wrp,.prj-btm{
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+section.hero-area.withbrands .brands {
+    margin-bottom: -175px;
+    margin-top: 70px;
+}
+section.project-area.project-area-2 .project-img {
+    margin-bottom: 0px;
+} 
+.project-right-points ul li {
+    margin-bottom: 0; 
+    margin-top: 25px;
+}
+section.service-area.services-two .service_text h3 {
+    font-size: 30px; 
+    line-height: 40px;
+}
+.project-right-points ul {
+    margin-top: 40px;
+}
+section.service-area.services-two .service-img {
+    text-align: center;
+}
+
+section.service-area.services-two .service-img h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 50px;
+}
+
+section.service-area.services-two .service-img  img {
+    max-width: 500px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
