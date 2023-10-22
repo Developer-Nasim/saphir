@@ -188,7 +188,9 @@
         max-width: 500px;
         margin: auto;
     }
-
+    .footer-form form button {
+        margin: auto;
+    }
 
 
 
@@ -484,7 +486,9 @@ section.service-area.services-two .service-img  img {
     margin: auto;
 }
 
-
+.footer-form form button {
+    margin: auto;
+}
 
 
 

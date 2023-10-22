@@ -618,8 +618,9 @@ section.service-area.services-two .service-img img {
 .calendar-area .container {
     border-radius: 30px;
     box-shadow: 0px 0px 30px 0px rgba(129, 139, 198, 0.25);
-    padding: 36px;
-    padding-top: 60px;
+    /* padding: 36px;
+    padding-top: 60px; */
+    overflow: hidden;
 }
 .col-lg-4 {
 }
@@ -772,6 +773,7 @@ section.service-area.services-two .service-img img {
 }
 .fb_left {font-size: 14px;}
 .fb_right {text-align: right;}
+ 
 /*============ Area End =============*/
 
 

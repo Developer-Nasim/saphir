@@ -23,6 +23,16 @@
                 emailjs.init('HHAworT-H_XkpsajR');
             })();
         </script>
+    <!--Dayschedule widget library from https://dayschedule.com/widget -->
+
+    <link href="https://cdn.jsdelivr.net/npm/dayschedule-widget@latest/dist/dayschedule-widget.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/dayschedule-widget@latest/dist/dayschedule-widget.min.js" defer></script>
+
+
+    <!-- <script
+    src="https://cdn.jsdelivr.net/npm/dayschedule-widget@latest/dist/dayschedule-widget.min.js"
+    defer -->
+  ></script>
     </head>
     <body>
  
@@ -251,7 +261,7 @@
         <section class="calendar-area">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4">
+                    <!-- <div class="col-lg-4">
                         <div class="parson-blk" data-aos="fade-in">
                             <img src="assets/img/parson.png" alt="">
                             <h2>Michael Michalik</h2>
@@ -269,6 +279,20 @@
                             <span class="mb-0">Do you need feedback on the visual identity of your business? Are you developing a project for a cabinet and want me to take a look at it?</span>
                             <span>Do you have a portfolio and don't know if it has enough quality?</span>
                         </div>
+                    </div> -->
+                    <div class="col-lg-12">
+                                   <!-- Widget code --> 
+                        <dayschedule-widget
+                            url="https://nasim-88.dayschedule.com/meetme"
+                            options='{ "color": {
+                            "primary": "#333",
+                            "secondary": "#2F80ED"
+                        }, 
+                        "hideHeader": true
+                        }'
+                        >
+                        </dayschedule-widget>
+                        <!-- Widget code -->
                     </div>
                 </div>
             </div>
