@@ -1,6 +1,40 @@
 (function($) {
   "use strict";
-  
+
+
+
+  function SendMail() { 
+    function SendMessage() {
+      var params = { 
+          name: document.querySelector('#name').value,
+          email: document.querySelector('#email').value,
+          message: document.querySelector('#message').value
+      }
+      const serviceId = "service_qf4gwx1";
+      const templateId = "template_02os09h";
+
+      emailjs.send(serviceId,templateId,params).then(
+          res => {
+              document.querySelector('#name').value = ""
+              document.querySelector('#email').value = ""
+              document.querySelector('#message').value = ""
+              alert('success');
+          }
+      ).catch(er => {
+          console.log(er)
+      });
+    }
+    let form = document.getElementById('contactForm')
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        SendMessage()
+    }) 
+  }
+  SendMail()
+
+
+
+
  // menu 
   $('.siteBar-btn').click( function (){ 
     $('.mobile-menu').toggleClass('siteBar');   
@@ -26,9 +60,7 @@
     mirror: false, // whether elements should animate out while scrolling past them
     anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation 
 });
-
-
-
+ 
   // owlCarousel
   $(".logo_slider").owlCarousel({
     loop: true,

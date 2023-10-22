@@ -746,12 +746,13 @@ section.service-area.services-two .service-img img {
     font-size: 25px;
     margin-bottom: 20px;
 }
-
-.footer-form a {
-    margin-left: auto;
-    width: 274px;
-    justify-content: center;
-    gap: 15px;
+.footer-form form button {
+  margin-left: auto;
+  width: 274px;
+  justify-content: center;
+  gap: 15px;
+  border: none;
+  outline: none;
 }
 
 .footer-form input,.footer-form textarea {

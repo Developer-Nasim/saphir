@@ -9,17 +9,23 @@
 		<link rel="shortcut icon" type="image/x-icon" href="#">
         <!-- Place favicon.ico in the root directory -->
         
-		<!-- CSS here --><link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
+		<!-- CSS here -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/font.css">
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/owl.carousel.min.css">  
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/responsive.css">
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script> 
+        <script type="text/javascript">
+            (function() {
+                // https://dashboard.emailjs.com/admin/account
+                emailjs.init('HHAworT-H_XkpsajR');
+            })();
+        </script>
     </head>
     <body>
-
-       
+ 
     <!-- header-area START -->
     <div class="header-area">
         <div class="container">
@@ -391,12 +397,12 @@
                 <div class="col-lg-7">
                     <div class="footer-form">
                         <h4><img src="assets/img/f-logo.svg" alt=""> Kontakt aufnehmen</h4>
-                        <form action="">
-                            <input type="text" placeholder="Ihr Name">
-                            <input type="text" placeholder="Ihre E-Mail Adresse">
-                            <textarea  placeholder="Ihre Nachricht an uns"></textarea>
-                        </form>
-                        <a href="#" class="thm_btn">Anfrage absenden <img src="assets/img/right-arrow.svg" alt=""></a>
+                        <form id="contactForm">
+                            <input type="text" id="name" placeholder="Ihr Name" required>
+                            <input type="email" id="email" placeholder="Ihre E-Mail Adresse" required>
+                            <textarea  id="message" placeholder="Ihre Nachricht an uns" required></textarea>
+                            <button type="submit" class="thm_btn">Anfrage absenden <img src="assets/img/right-arrow.svg" alt=""></button>
+                        </form> 
                     </div>
                 </div>
             </div>
@@ -425,7 +431,7 @@
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
         <script src="assets/js/owl.carousel.min.js"></script> 
-        <script src="assets/js/main.js"></script>
+        <script src="assets/js/main.js"></script> 
      
     </body>
 </html>
