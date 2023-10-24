@@ -41,7 +41,13 @@
   }
   SendMail()
 
-
+  function InitSchedule() {
+    Calendly.initInlineWidget({
+        url: 'https://calendly.com/ajnasim72/15min?month=2023-10&date=2023-10-25',
+        parentElement: document.getElementById('calendly-embed')
+    });
+  }
+  InitSchedule()
 
 
  // menu 

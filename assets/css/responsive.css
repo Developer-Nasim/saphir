@@ -5,7 +5,7 @@
     }
     
     .calendar-area .container {
-        width: 90%;
+        /* width: 90%; */
     }
 
 }
@@ -20,7 +20,7 @@
     }
     
     .calendar-area .container {
-        width: 90%;
+        /* width: 90%; */
     }
     h1 {
         font-size: 42px;
@@ -75,7 +75,7 @@
     }
     
     .calendar-area .container {
-        width: 90%;
+        /* width: 90%; */
     }
     h1 {
         font-size: 42px;
@@ -217,7 +217,7 @@
     }
     
     .calendar-area .container {
-        width: 90%;
+        /* width: 90%; */
     }
     h1 {
         font-size: 28px;

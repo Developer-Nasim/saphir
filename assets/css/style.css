@@ -558,7 +558,7 @@ section.service-area.services-two .service-img img {
 
 /*============ Area Start =============*/
 
-.service-area {padding: 130px 0 150px;}
+.service-area {padding: 130px 0 100px;}
 .md {
 }
 .col-lg-6 {
@@ -619,22 +619,18 @@ section.service-area.services-two .service-img img {
 
 
 /*============ Area Start =============*/
-
-.calendar-area {
+ 
+section.calendar-area {
+  background: #fbfcfd;
+  padding-bottom: 40px;
 }
-
 .calendar-area .container {
-    border-radius: 30px;
-    box-shadow: 0px 0px 30px 0px rgba(129, 139, 198, 0.25);
+    /* border-radius: 30px;
+    box-shadow: 0px 0px 30px 0px rgba(129, 139, 198, 0.25); */
     /* padding: 36px;
     padding-top: 60px; */
-    overflow: hidden;
-}
-.col-lg-4 {
-}
-.parson-blk {
-}
-
+    overflow: hidden; 
+} 
 .parson-blk span {
     font-size: 13px;
     font-weight: 300;
