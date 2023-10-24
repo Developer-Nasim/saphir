@@ -2,6 +2,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
 /* ======font family=========
 font-family: 'Poppins', sans-serif;
+font-family: 'Inter', sans-serif;
 */
 @import url(../fonts/style.css);
 :root{
@@ -16,7 +17,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
-  color: #333333;
+  color: #000;
 }
 
   img{
@@ -54,6 +55,7 @@ h3,
 h4,
 h5,
 h6 {
+  color: #333;
   margin-top: 0px; 
   font-weight: 700;
  }
@@ -346,7 +348,7 @@ section.project-area.project-area-2 {
 }
 .pj-1 {top: -50px;right: 26px;filter: drop-shadow(0px 4px 24px #B9B8FF);}
 .pj-2 {top: 44%;left: -65px;}
-.pj-3 {top: 35%;right: -60px;filter: drop-shadow(0px 0px 50px rgba(103, 76, 181, 0.60));}
+.pj-3 {top: 35%;right: -60px;filter: drop-shadow(0px 0px 50px rgba(103, 76, 181, 0.20));}
 
 img.pj-4 {
     bottom: -60px;
@@ -365,6 +367,7 @@ img.pj-4 {
 
 .project_text span {
     font-size: 14px;
+    color: #333;
 }
 
 .project_text p {
@@ -493,6 +496,7 @@ section.project-area.project-area-2 .project-img img {
   max-width: 222px;
   margin: auto;
   margin-bottom: 20px;
+  font-family: "Inter", sans-serif;
 }
  
 
@@ -504,6 +508,7 @@ section.service-area.services-two .service_text h3 {
 
 section.service-area.services-two .service_text > p {
     line-height: 32px;
+    font-family: "Inter", sans-serif;
 }
  
 
@@ -561,15 +566,16 @@ section.service-area.services-two .service-img img {
 .service_text {
 }
 
-.service_text > p {
-    font-size: 18px !important;
-}
 
 .service_text p {
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     margin: 20px 0 30px;
     font-size: 14px;
     line-height: 30px;
+}
+.service_text > p {
+    font-size: 18px !important; 
 }
 
 .service_text ul li {
@@ -582,7 +588,9 @@ section.service-area.services-two .service-img img {
 }
 
 .service_text ul li h5 {
-    font-weight: 600;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color: #191A15;
 }
 
 .service_text ul li:after {
@@ -676,11 +684,12 @@ section.service-area.services-two .service-img img {
 }
 
 .faq-content .accordion-item button {
-    background: no-repeat;
+    background: none;
     border: none;
     font-size: 18px;
     font-weight: 700;
     text-align: left;
+    color: #333;
 }
 
 .accordion-button:not(.collapsed)::after {
@@ -704,7 +713,7 @@ section.service-area.services-two .service-img img {
 }
 .show {
 }
-.accordion-body p {font-size: 14px;line-height: 1.8;margin-bottom: 5px;}
+.accordion-body p {font-size: 14px;line-height: 1.8;margin-bottom: 5px;color: #333;}
 .collapsed {
 }
 /*============ Area End =============*/
@@ -721,8 +730,9 @@ section.service-area.services-two .service-img img {
 }
 
 .footer_left h4 {
-    font-size: 25px;
-    font-weight: 400;
+  color: #FFF;
+  font-size: 25px;
+  font-weight: 400;
 }
 .user-wrp {margin-top: 24px;}
 
@@ -740,12 +750,13 @@ section.service-area.services-two .service-img img {
     display: flex;
     gap: 10px;
 }
-.footer_left .nav {justify-content: space-between;align-items: center;margin-top: 50px;}
+.footer_left .nav {justify-content: space-between;align-items: center;margin-top: 50px;max-width: 305px;}
 .footer-form {border-radius: 20px;background: rgba(255, 255, 255, 0.06);padding: 30px;max-width: 627px;margin-left: auto;}
 
 .footer-form h4 {
-    font-size: 25px;
-    margin-bottom: 20px;
+  color: #FFF;
+  font-size: 25px;
+  margin-bottom: 20px;
 }
 .footer-form form button {
   margin-left: auto;
@@ -768,9 +779,29 @@ section.service-area.services-two .service-img img {
 
 .footer-form textarea {
     height: 80px;
+} 
+form#contactForm {
+    position: relative;
+} 
+form#contactForm.success:before,
+form#contactForm.faild:before {
+    content: "Successfully sent";
+    display: flex;
+    width: 100%;
+    height: 35px;
+    background: #76f1084d;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
 }
-.col-md-6 {
+form#contactForm.faild:before{
+  content: "Something wents wrong!";
+  background: #c50f0f3d;
 }
+
+
+
 .fb_left {font-size: 14px;}
 .fb_right {text-align: right;}
  

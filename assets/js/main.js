@@ -4,6 +4,8 @@
 
 
   function SendMail() { 
+    let form = document.getElementById('contactForm')
+
     function SendMessage() {
       var params = { 
           name: document.querySelector('#name').value,
@@ -18,13 +20,20 @@
               document.querySelector('#name').value = ""
               document.querySelector('#email').value = ""
               document.querySelector('#message').value = ""
-              alert('success');
+              form.classList.add('success')
+              setTimeout(() => {
+                form.classList.remove('success')
+              }, 5000)
           }
       ).catch(er => {
           console.log(er)
+          form.classList.add('faild')
+          setTimeout(() => {
+            form.classList.remove('faild')
+          }, 5000)
+          
       });
     }
-    let form = document.getElementById('contactForm')
     form.addEventListener('submit', (e) => {
         e.preventDefault();
         SendMessage()

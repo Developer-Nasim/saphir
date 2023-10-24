@@ -11,6 +11,8 @@
         
 		<!-- CSS here -->
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!--Dayschedule widget library from https://dayschedule.com/widget -->
+        <link href="https://cdn.jsdelivr.net/npm/dayschedule-widget@latest/dist/dayschedule-widget.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="assets/css/font.css">
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/owl.carousel.min.css">  
@@ -22,17 +24,11 @@
                 // https://dashboard.emailjs.com/admin/account
                 emailjs.init('HHAworT-H_XkpsajR');
             })();
-        </script>
-    <!--Dayschedule widget library from https://dayschedule.com/widget -->
+        </script> 
+        <script src="https://cdn.jsdelivr.net/npm/dayschedule-widget@latest/dist/dayschedule-widget.min.js" defer></script>
 
-    <link href="https://cdn.jsdelivr.net/npm/dayschedule-widget@latest/dist/dayschedule-widget.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.jsdelivr.net/npm/dayschedule-widget@latest/dist/dayschedule-widget.min.js" defer></script>
-
-
-    <!-- <script
-    src="https://cdn.jsdelivr.net/npm/dayschedule-widget@latest/dist/dayschedule-widget.min.js"
-    defer -->
-  ></script>
+ 
+ 
     </head>
     <body>
  
@@ -421,7 +417,7 @@
                 <div class="col-lg-7">
                     <div class="footer-form">
                         <h4><img src="assets/img/f-logo.svg" alt=""> Kontakt aufnehmen</h4>
-                        <form id="contactForm">
+                        <form id="contactForm"> 
                             <input type="text" id="name" placeholder="Ihr Name" required>
                             <input type="email" id="email" placeholder="Ihre E-Mail Adresse" required>
                             <textarea  id="message" placeholder="Ihre Nachricht an uns" required></textarea>
